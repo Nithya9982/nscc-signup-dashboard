@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    padding: 50px 20px;
+
+    background:
+        radial-gradient(circle at top left, #dbeafe, transparent 35%),
+        radial-gradient(circle at bottom right, #ede9fe, transparent 35%),
+        #f8fafc;
+
+    color: #1e293b;
+}
+
+
+/* Main container */
+
+.container {
+    width: 100%;
+    max-width: 950px;
+    margin: auto;
+}
+
+
+/* Signup card */
+
+.container > h1,
+.container > form {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.container > h1 {
+    padding: 35px 40px 10px;
+    border-radius: 20px 20px 0 0;
+
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+
+    color: #0f172a;
+}
+
+
+
+
+form {
+    padding: 15px 40px 40px;
+
+    border-radius: 0 0 20px 20px;
+
+    box-shadow:
+        0 20px 50px rgba(15, 23, 42, 0.08);
+
+    backdrop-filter: blur(10px);
+}
+
+
+
+
+
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #334155;
+}
+
+
+
+input {
+    width: 100%;
+    padding: 14px 16px;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+
+    background: #f8fafc;
+
+    font-family: inherit;
+    font-size: 15px;
+
+    color: #0f172a;
+
+    transition: all 0.2s ease;
+}
+
+
+
+
+input:focus {
+    outline: none;
+
+    border-color: #6366f1;
+
+    background: white;
+
+    box-shadow:
+        0 0 0 4px rgba(99, 102, 241, 0.12);
+}
+
+
+
+input::placeholder {
+    color: #94a3b8;
+}
+
+
+
+small {
+    display: block;
+    margin-top: 7px;
+
+    font-size: 13px;
+    color: #ef4444;
+}
+
+
+
+form button {
+    width: 100%;
+    padding: 14px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: linear-gradient(
+        135deg,
+        #6366f1,
+        #8b5cf6
+    );
+
+    color: white;
+
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 20px rgba(99, 102, 241, 0.25);
+
+    transition: all 0.2s ease;
+}
+
+
+
+form button:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 12px 25px rgba(99, 102, 241, 0.35);
+}
+
+
+
+form button:active {
+    transform: translateY(0);
+}
+
+
+
+h2 {
+    margin-top: 45px;
+    margin-bottom: 18px;
+
+    font-size: 24px;
+    font-weight: 700;
+
+    color: #0f172a;
+}
+
+
+
+.table-container {
+    overflow-x: auto;
+
+    background: white;
+
+    border-radius: 16px;
+
+    box-shadow:
+        0 15px 40px rgba(15, 23, 42, 0.08);
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+th {
+    padding: 16px 18px;
+
+    background: #0f172a;
+
+    color: white;
+
+    text-align: left;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    letter-spacing: 0.3px;
+}
+
+
+
+td {
+    padding: 15px 18px;
+
+    border-bottom: 1px solid #e2e8f0;
+
+    font-size: 14px;
+
+    color: #475569;
+}
+
+
+
+tbody tr {
+    transition: background 0.2s ease;
+}
+
+tbody tr:hover {
+    background: #f8fafc;
+}
+
+
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+
+.delete-btn {
+    width: auto !important;
+
+    padding: 8px 13px !important;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #fee2e2 !important;
+
+    color: #dc2626 !important;
+
+    font-family: inherit;
+
+    font-size: 13px !important;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow: none !important;
+
+    transition: all 0.2s ease;
+}
+
+
+
+.delete-btn:hover {
+    background: #dc2626 !important;
+
+    color: white !important;
+
+    transform: translateY(-1px);
+}
+
+
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 25px 12px;
+    }
+
+    .container > h1 {
+        padding: 25px 20px 10px;
+
+        font-size: 26px;
+    }
+
+    form {
+        padding: 15px 20px 30px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    th,
+    td {
+        padding: 12px;
+    }
+}

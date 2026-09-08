@@ -24,16 +24,10 @@ It is a simple and modern web application that allows users to sign up using a v
 
 ### Additional Features
 
-- Modern and responsive user interface
-- Gradient background
-- Modern card-based design
-- Interactive input fields
-- Input focus effects
-- Button hover animations
-- Styled dashboard table
-- Responsive layout for smaller screens
-- Clear validation error messages
-- User data remains after refreshing the page
+    - Button hover animations
+    - Responsive layout for smaller screens
+    - Clear validation error messages
+    - User data remains after refreshing the page
 
 ---
 
@@ -44,6 +38,19 @@ It is a simple and modern web application that allows users to sign up using a v
 - **JavaScript** – Form validation, DOM manipulation, localStorage, and dashboard functionality
 - **Web Crypto API** – Password hashing
 - **LocalStorage API** – Browser-based data storage
+
+## 📚 Skills Learned
+
+While completing this task, I gained practical experience and improved my understanding of:
+
+
+- **DOM Manipulation** – Dynamically updating the dashboard and displaying user data
+- **Form Validation** – Validating user inputs before accepting and storing data
+- **Regular Expressions (Regex)** – Validating email formats
+
+
+
+
 
 ---
 

@@ -39,7 +39,7 @@ It is a simple and modern web application that allows users to sign up using a v
 - **Web Crypto API** – Password hashing
 - **LocalStorage API** – Browser-based data storage
 
-## 📚 Skills Learned
+##  Skills Learned
 
 While completing this task, I gained practical experience and improved my understanding of:
 
@@ -47,6 +47,48 @@ While completing this task, I gained practical experience and improved my unders
 - **DOM Manipulation** – Dynamically updating the dashboard and displaying user data
 - **Form Validation** – Validating user inputs before accepting and storing data
 - **Regular Expressions (Regex)** – Validating email formats
+
+##  Live Demo
+
+**Live Website:** https://nithya9982.github.io/nscc-signup-dashboard/
+
+The project is deployed using GitHub Pages and can be tested directly through the live website.
+
+##  Deployment
+
+This project is deployed using **GitHub Pages**.
+
+### Deployment Steps
+
+1. Push the project files to a GitHub repository.
+2. Open the repository on GitHub.
+3. Go to **Settings → Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch.
+6. Select `/ (root)`.
+7. Click **Save**.
+8. GitHub Pages builds and publishes the website.
+9. Open the generated deployment URL to access the project.
+
+### Deployment URL
+
+https://nithya9982.github.io/nscc-signup-dashboard/
+
+## Environment Setup
+
+### Requirements
+
+- Visual Studio Code
+- Modern web browser
+- Live Server extension for local development
+- Git and GitHub
+
+### Local Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Nithya9982/nscc-signup-dashboard.git
 
 
 
